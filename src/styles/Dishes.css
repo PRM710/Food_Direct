@@ -1,0 +1,256 @@
+.dish{
+    height: 100%;
+    width: 100%;
+}
+
+.mid--dish{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.right--dish{
+    width: 50%;
+}
+
+.pan--logo{
+    width: 900px;
+  position: relative;
+ right: 50px;
+ bottom: 150px;
+ z-index: 1;
+}
+
+.top--dishes .item1{
+    width: 180px;
+    border-radius: 40px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.top--dishes .item1:hover{
+    transform: scale(1.01); 
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.overlay-text1{
+    position: absolute;
+    bottom: 15%;
+    left: 26%;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: black;
+    -webkit-text-stroke: 0.75px white;
+    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); */
+}
+
+.top--dishes .item2{
+    width: 180px;
+    border-radius: 40px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.top--dishes .item2:hover{
+    transform: scale(1.01); 
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.overlay-text2{
+    position: absolute;
+    bottom: 20%;
+    left: 14%;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: black;
+    -webkit-text-stroke: 0.75px white;
+    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); */
+}
+
+.top--dishes{
+    display: flex;
+    gap: 1.1rem;
+}
+
+.bot--dishes .item3{
+    width: 180px;
+    border-radius: 40px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.bot--dishes .item3:hover{
+    transform: scale(1.01); 
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.overlay-text3{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: black;
+    -webkit-text-stroke: 0.75px white;
+    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); */
+}
+
+.bot--dishes .item4{
+    width: 180px;
+    border-radius: 40px;
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+.bot--dishes .item4:hover{
+    transform: scale(1.01); 
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.overlay-text4{
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: black;
+    -webkit-text-stroke: 0.75px white;
+    /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); */
+}
+
+.bot--dishes {
+    display: flex;
+    gap: 1.1rem;
+    margin-top: 10px;
+}
+
+.dishes--4{
+    position: relative;
+    left: 250px;
+}
+
+.left--dish{
+    width: 50%;
+}
+
+.dish--text{
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+
+
+@media only screen and (max-width: 425px) and (min-height: 700px) and (max-height: 800px) {
+
+    .logo{
+        justify-content: center;
+    }
+
+    .mid--dish{
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+        bottom: 40px;
+        justify-content: center;
+    }
+
+    .right--dish{
+        width: 100%;
+    }
+
+    .pan--logo{
+        width: 400px;
+        justify-items: end;
+        position: relative;
+        left: 20%;
+        /* right:70px; */
+        bottom: 85px;
+    }
+
+    .left--dish{
+        width: 200%;
+        position: relative;
+        bottom: 170px;
+        right: 250px;
+    }
+
+    .dishes--4{
+        width: auto;
+        padding-left: 40px;
+        justify-items: center;
+        left: 30px;
+    }
+
+    .top--dishes .item1{
+        width: 100px;
+        border-radius: 20px;
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .overlay-text1{
+        position: absolute;
+        bottom: 20px;
+        left: 26%;
+        font-size: 1.2rem;
+    }
+
+    .top--dishes .item2{
+        width: 100px;
+        border-radius: 20px;
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .overlay-text2{
+        position: absolute;
+         bottom: 25px;
+        left: 20%;
+        font-size: 1rem;
+    }
+
+    .bot--dishes .item3{
+        width: 100px;
+        border-radius: 20px;
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .overlay-text3{
+        position: absolute;
+        bottom: 20px;
+        left: 20%;
+        font-size: 0.8rem;
+    }
+
+    .bot--dishes .item4{
+        width: 100px;
+        border-radius: 20px;
+        cursor: pointer;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .overlay-text4{
+        position: absolute;
+        bottom: 20px;
+        left: 26%;
+        font-size: 1rem;
+    }
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,44 @@
+.menu{
+    text-align: center;
+    padding: 20%;
+    position: relative;
+    bottom: 700px;
+    color: black;
+    font-weight: 420;
+}
+
+.menu--button > button{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 1.5rem;
+}
+
+.menu--icon{
+    color: black;
+    width: 50px;
+}
+
+.menu--icon:hover{
+    transform: scale(1.07); 
+}
+
+@media only screen and (max-width: 425px)  and (min-height: 700px) and (max-height: 800px) {
+
+    .menu{
+        display: flex;
+        text-align: center;
+        padding: 20%;
+        position: relative;
+        bottom: 350px;
+        left: 120px;
+        color: black;
+        font-weight: 420;
+    }
+
+    .menu .see--menu{
+        position: relative;
+        right: 5%;
+        padding-top: 7%;
+    }
+}
